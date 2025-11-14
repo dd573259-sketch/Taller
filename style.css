@@ -1,0 +1,55 @@
+/* Fondo general */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e8f6ff, #ffffff);
+    color: #333;
+}
+
+/* Contenedor centrado */
+section {
+    width: 70%;
+    margin: 60px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Título */
+h2 {
+    color: #0099ff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Lista decorada */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    position: relative;
+}
+
+/* Punto decorado */
+ul li::before {
+    content: "☸";
+    position: absolute;
+    left: -30px;
+    font-size: 18px;
+}
+
+/* Animación suave al pasar el mouse */
+ul li:hover {
+    transform: translateX(5px);
+    transition: 0.2s ease;
+    color: #0077cc;
+}
