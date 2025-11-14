@@ -1,0 +1,20 @@
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio uniforme entre imágenes */
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    width: 30%;
+    height: 250px;      
+    object-fit: cover;
+    margin: 1%; /* Elimina márgenes individuales */
+}
+
+footer {
+    background: #0099ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
