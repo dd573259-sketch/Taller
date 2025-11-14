@@ -1,0 +1,13 @@
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #0099ff;
+}
+
+.destino {
+    border: 1px solid #0099ff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
